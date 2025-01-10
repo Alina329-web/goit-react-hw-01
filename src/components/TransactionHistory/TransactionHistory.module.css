@@ -1,0 +1,20 @@
+.transactionTable {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.transactionTable th,
+.transactionTable td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.transactionTable th {
+  background-color: black;
+  color: #f4f4f4;
+}
+
+.transactionTable tr:nth-child(even) {
+  background-color: #858282;
+}
